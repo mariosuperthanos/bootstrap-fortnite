@@ -1,0 +1,22 @@
+#carusel-top, .carousel-inner, .carousel-item {
+    max-height: 40vh;
+}
+.carousel-item>img {
+    object-fit: cover;
+    object-position: 50% 50%;
+}
+
+#subscribe-img {
+    width: 100%;
+    border: 2px solid #303030;
+    border-radius: 60px;
+    margin-top: 20px;
+}
+#subscribe-img:hover {
+    background-color: beige;
+}
+
+.space20 {
+    display: block;
+    height: 20px;
+}
